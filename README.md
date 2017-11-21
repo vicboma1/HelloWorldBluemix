@@ -5,8 +5,13 @@ Proyecto scratching para el testeo de la plataforma Node-Red
 
 ![](https://github.com/vicboma1/HelloWorldBluemix/blob/master/assets/_helloWorld.gif)
 
-La solución se basa en un esquema simple donde se injecta un paquete con un payload "Hola Mundo".
-Este paquete es recibido por un nodo de debug y se pinta en la consola.
+La solución se basa en un esquema simple donde se injecta un paquete con las siguientes propiedades :
+
+* Topic : Nombre descriptivo del paquete
+* Payload : Contenido del paquete
+* msgid : Atributo oculto que crea el empaquetado.
+
+Este mensaje es recibido por un nodo de debug y se pinta en la consola.
 
 
 ## Pasos a seguir
