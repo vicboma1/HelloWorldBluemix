@@ -15,7 +15,7 @@ Este mensaje es recibido por un nodo de debug y se pinta en la consola.
 
 
 ## Pasos a seguir
-1.   Copiar la ![Plantilla txt](https://raw.githubusercontent.com/vicboma1/HelloWorldBluemix/master/assets/_helloWorl.txt) con "Control A" + "Control C"
+1.   Copiar la ![Plantilla txt](https://raw.githubusercontent.com/vicboma1/HelloWorldBluemix/master/assets/_helloWorld.txt) con "Control A" + "Control C"
 
 2.   Ir al menú contextual de nuestra aplicación Node-RED
 
