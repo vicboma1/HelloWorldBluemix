@@ -1,0 +1,43 @@
+﻿[
+    {
+        "id": "a9b350c3.465bd",
+        "type": "inject",
+        "z": "deb0d57.1c46528",
+        "name": "Mensaje \"Hola Mundo\"",
+        "topic": "Inject",
+        "payload": "Hola Mundo",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "x": 290,
+        "y": 160,
+        "wires": [
+            [
+                "2c7cc1a0.1da15e"
+            ]
+        ]
+    },
+    {
+        "id": "2c7cc1a0.1da15e",
+        "type": "debug",
+        "z": "deb0d57.1c46528",
+        "name": "Console Debug",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 580,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "f5bae35e.73be4",
+        "type": "comment",
+        "z": "deb0d57.1c46528",
+        "name": "Nodo Injector",
+        "info": "",
+        "x": 230,
+        "y": 100,
+        "wires": []
+    }
+]
